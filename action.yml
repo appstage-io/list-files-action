@@ -1,0 +1,16 @@
+name: 'Appstage.io - List Files'
+author: 'P4 Innovation Ltd'
+description: 'List your Appstage.io files in the Live Builds release'
+inputs:
+  token:
+    description: 'Project Access Token'
+    required: true
+  host:
+    description: 'API host, defaults to https://www.appstage.io'
+    required: false
+outputs:
+  files:
+    description: 'JSON list of files'
+runs:
+  using: 'node20'
+  main: 'index.js'
