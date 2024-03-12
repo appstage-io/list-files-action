@@ -1,6 +1,9 @@
 name: 'Appstage.io - List Files'
 author: 'P4 Innovation Ltd'
 description: 'List your Appstage.io files in the Live Builds release'
+branding:
+  icon: "upload-cloud"
+  color: "red"
 inputs:
   token:
     description: 'Project Access Token'
